@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <script src="todo.js">
+
+    </script>
+        
+    <script src="gettlinks.js" defer>
+        
+    </script>
+    <script src="reevents.js" defer></script>
+    <script src="restore.js" defer></script>
+
+    <script src="create.js" defer></script>
+     <script src="events.js"></script>
+
+     <script src="time.js" defer></script>
+
+
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+
+                <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <input type="text" class="todo" id="linkname" placeholder="link">
+                        <input type="text" class="todo" id="link" placeholder="name">
+                        <button onclick="addbutton()" id="todobutton">ADD LINK</button>
+                        <div class="container" id="linki">
+                    
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="column">
+                      <div class="card">
+                        <input type="text" class="todo" id="todo" placeholder="todo">
+                        <button onclick="addtodo()" id="todobutton">ADD TODO</button>
+                              <select id="selector">
+                                <option value="-">-</option>
+                                <option value="+">+</option>
+                                <option value="/">/</option>
+                                <option value="?">?</option>
+                              </select>
+                              <div class="container" id="todod">
+                                    <div id="potatoes">
+
+                                    </div>         
+                                             </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <div class="card">
+                        <input type="date" id="date">
+                        <input type="time" id="time">
+                        <input placeholder="event" id="event">
+                                <button onclick="addevent()">AD EVENT</button>
+                              <div class="container" id="todod">
+                                    <div id="potatoes1">
+
+                                    </div>         
+                                             </div>
+                      </div>
+                    </div>
+
+
+                    <div class="column">
+                      <div class="card">
+
+                              <div class="container" id="todod">
+                                <div id="clock" class="clock"></div>
+
+                                             </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; QUICK NOTES</span>
+                    </div>
+
+
+
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <textarea id="textarea"></textarea>
+                    </div>
+                    <script>
+                      function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                        
+                        document.getElementById("textarea").value = localStorage.getItem("text");
+                      }
+                      
+                      function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+
+                        var text = document.getElementById("textarea").value;
+                        localStorage.setItem("text", text);
+                      }
+                      </script>
+    </body>
+</html>
