@@ -6,6 +6,7 @@ window.onload = function createeverything() {
 
     }
     else{
+        localStorage.setItem("firsttodo", "true");
         localStorage.setItem("todos", JSON.stringify(""));
         localStorage.setItem("links", JSON.stringify(""));
         localStorage.setItem("titles", JSON.stringify(""));

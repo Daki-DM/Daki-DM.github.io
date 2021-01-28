@@ -3,6 +3,11 @@
     var numidp = 0;
  
 function addtodo(){
+
+    if(localStorage.getItem("firsttodo") == "true"){
+        localStorage.setItem("firsttodo", "true");
+        location.reload(true);
+    }
     numidb = numidb + 1;
     numidp = numidp - 1;
     var todolist = JSON.parse(localStorage.getItem("todos")) || [];
