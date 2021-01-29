@@ -1,6 +1,6 @@
 # KIWI-the-kiwish-assistent
 
-Kiwi is a assistent that includes a To-Do list, Link shortcuts, Meeting schedueler and a time clock. It's made with Javascript, HTML and CSS. It uses localStorage to store the data. If something doesn't work (but it should) try to refresh the browser, if it doesnt fix it please notify me on Discord. I used this project for learning JvaScript. Thats my second project that uses Javascript, the first was a simple area and perimeter calculator, but this project uses way more JavaScript. I  always liked Python more than JS but after this project...I think I can say I like JS more.
+Kiwi is a assistent that includes a To-Do list, Link shortcuts, Meeting schedueler and a time clock. It's made with Javascript, HTML and CSS. It uses localStorage to store the data. If something doesn't work (but it should) try to refresh the browser, if it doesnt fix it please notify me on Discord. The code is very messy, read it at you'r own risk. I used this project for learning JvaScript. Thats my second project that uses Javascript, the first was a simple area and perimeter calculator, but this project uses way more JavaScript. I  always liked Python more than JS but after this project...I think I can say I like JS more.
 
 ## How to install or use it?
 Go on https://daki-dm.github.io/ and try it out.
