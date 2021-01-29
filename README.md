@@ -22,5 +22,5 @@ What can I say - a clock.
 ### NOTES
 You just write in quick notes and they stay stored.
 
-## About me
+## Creator
 I'm 13 years old and i like coding. I use Python, Javascript, HTML, CSS. And I'm not good with titles and desighning... 
