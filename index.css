@@ -6,17 +6,18 @@
         border: none;
 
     }
-    .todo{
-        border-color: aqua;
-        width: 200px;    
-        height: 30px;
-    } 
+input{
+border: none;
+border-bottom: 5px solid rgb(20, 207, 67);
+width: 230px;
+height: 30px;
+}
     * {
       box-sizing: border-box;
     }
     
     body {
-      background: linear-gradient(to right, rgb(50, 221, 73), rgb(137, 255, 172), rgb(108, 255, 78));
+      background: linear-gradient(to right, 	rgb(140, 255, 102), rgb(137, 255, 172), 	rgb(140, 255, 102));
 
   }
 
@@ -49,7 +50,7 @@
         margin-bottom: 20px;
       }
     }
-        .card {
+      .card {
       box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
       padding: 16px;
       text-align: center;

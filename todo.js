@@ -5,7 +5,7 @@
 function addtodo(){
 
     if(localStorage.getItem("firsttodo") == "true"){
-        localStorage.setItem("firsttodo", "true");
+        localStorage.setItem("firsttodo", "false");
         location.reload(true);
     }
     numidb = numidb + 1;
